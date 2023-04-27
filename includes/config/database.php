@@ -1,5 +1,5 @@
 <?php
-
+// epiz_34080176_bienesraicesMVC
 function conectarDB() : mysqli{
     $db =  new mysqli($_ENV['DB_HOST'],
     $_ENV['DB_USER'], 
